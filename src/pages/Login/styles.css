@@ -1,0 +1,99 @@
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container_image {
+  max-width: 700px;
+  width: 100%;
+  /* margin: 100px auto; */
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  background: #1b2431;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 10px auto;
+  border: 0 none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.nick_name {
+  font-size: 30px;
+  color: #f7f7f7;
+}
+
+.input_name {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 80px;
+  font-size: 16px;
+  background: rgb(255, 255, 255);
+  border: 0 none;
+  color: #1e488f;
+  padding: 10px;
+  border-radius: 2px;
+  flex: 1;
+}
+
+.input_name:focus {
+  border: 1;
+  border-color: #f7f7f7;
+}
+
+.favorite_topic {
+  display: flex;
+  flex-direction: row;
+}
+
+.button_favorite {
+  width: 70px;
+  height: 70px;
+  margin: 20px 20px 0px 0px;
+}
+
+.button_favorite:hover {
+  filter: brightness(90%);
+  transition-duration: 300ms;
+}
+
+.image_button {
+  display: block;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.button_play {
+  border: 0 none;
+  margin-top: 60px;
+  width: 100%;
+  height: 80px;
+  font-size: 25px;
+  background: #016795;
+  color: #f7f7f7;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button_play:hover {
+  filter: brightness(90%);
+  transition-duration: 300ms;
+}
