@@ -1,0 +1,56 @@
+.container_table {
+  max-width: 700px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 3px;
+  padding: 20px;
+  margin: 10px auto;
+  border: 0 none;
+}
+
+.button_back {
+  max-width: 700px;
+  width: 100%;
+}
+
+.button_back button {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+.title h1 {
+  color: #1b2431;
+}
+
+#table_ranking {
+  border-collapse: collapse;
+  width: 100%;
+  word-wrap: break-word;
+  table-layout: fixed;
+}
+
+#table_ranking td,
+#table_ranking th {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table_ranking tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#table_ranking tr:hover {
+  background-color: #ddd;
+}
+
+#table_ranking th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1b2431;
+  color: white;
+}

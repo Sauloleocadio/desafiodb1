@@ -15,7 +15,7 @@ function Dashboard() {
 
   return (
     <div id="app">
-      <h1>Hello, {nickname}</h1>
+      <h1>Olá {nickname} =), Bom jogo!</h1>
     </div>
   );
 }
