@@ -1,0 +1,9 @@
+.container_image {
+  margin-top: 100px;
+}
+
+#error {
+  font-size: 30px;
+  color: #1e488f;
+  font-weight: bold;
+}

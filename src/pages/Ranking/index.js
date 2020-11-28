@@ -2,8 +2,6 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import "./styles.css";
 
-// import { Container } from './styles';
-
 function Ranking() {
   const history = useHistory();
 
